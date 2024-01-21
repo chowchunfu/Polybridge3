@@ -2,7 +2,7 @@ Truss Calculator
 ------------------------------------------------------------------------------------
 Written by chowchunfu
 
-This is a Truss Calculation Tool written in Python to execute Axial forces and stresses of some simple trusses. It aims to give you a better view of stress behavior and to enhance your truss design skills.
+This is a Truss Calculation Tool written in Python to execute the axial forces and stresses of some simple trusses. It aims to give you a better view of stress behavior and to enhance your truss design skills.
 Using 
 
 Required Python modules: numpy, tkinter.
@@ -33,7 +33,7 @@ y (class 'float') is the y coordinate of the updated node.
 GetNodestoIterate(Center,step,nodes):
 Get the node coordinates range in one direction (x or y). Returns a list of the node coordinates (class 'list').
 Center (class 'float') is the center of the node coordinate
-step (class 'float') is spacing of the node coordinates. Returns only one value if the step is zero.
+step (class 'float') is the spacing of the node coordinates. Returns only one value if the step is zero.
 nodes (class 'int') is the number of node coordinates in that direction.
 
 [(Node,XCoords,YCoords)]
