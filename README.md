@@ -22,7 +22,7 @@ Generate a truss diagram and show the truss calculation results.
 TrussData (class 'dict')
 ResultType (class 'str') can be: "AxialForces", "Stresses", "SxC".
 
-GetTweakedTrussData(TrussData,Node,x,y):
+GetTweakedTrussData(TrussData,Node,(x,y)):
 Update the coordinate of one node of the truss. Returns TrussData (class 'dict')
 TrussData (class 'dict')
 Node (class 'str') is the required node that you want to tweak.
