@@ -1,6 +1,7 @@
 Truss Calculator
-Written by chowchunfu
 ------------------------------------------------------------------------------------
+Written by chowchunfu
+
 
 List of commands:
 
