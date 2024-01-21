@@ -1,0 +1,47 @@
+Node:Coord_x Coord_y
+1:0 0
+2:0.5 0.866
+3:1 0
+4:1.5 0.866
+5:2 0
+
+Node:Restraint_x Restraint_y
+1:0 0
+2:1 1
+3:1 1
+4:1 1
+5:0 0
+
+Node Load_x Load_y
+1:0 0
+2:0 0
+3:0 -1
+4:0 0
+5:0 0
+
+Edge:Connection1 Connection2
+1:1 2
+2:1 3
+3:2 3
+4:2 4
+5:3 4
+6:3 5
+7:4 5
+
+Edge:Capacity
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+
+Edge:EdgeInclusion
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
