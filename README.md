@@ -3,7 +3,6 @@ Truss Calculator
 Written by chowchunfu
 
 This is a Truss Calculation Tool written in Python to execute the axial forces and stresses of some simple trusses. It aims to give you a better view of stress behavior and to enhance your truss design skills.
-Using 
 
 Required Python modules: numpy, tkinter.
 
@@ -52,9 +51,9 @@ TrussData (class 'dict')
 TweakData (class 'list') is the list obtained by the above two functions.
 
 SaveIteratedResults(TrussData,TweakData):
-Generates a csv file containing truss results respective to the nodes in the coordinate range.
+Generate a csv file containing truss results respective to the nodes in the coordinate range.
 File located in the \TrussResults\IteratedResults.csv.
 
 SaveIteratedResultAnalysis(TrussData,TweakData):
-Generates a txt file filtering the minimum values of the truss results.
+Generate a txt file filtering the minimum values of the truss results.
 File located in the \TrussResults\IteratedResultAnalysis.txt.
